@@ -40,27 +40,30 @@ p{
     float: left; 
     background-color: black;
     width: calc(100% / 3 - 40px); 
-    height: 130px;
+    height: 80px;
     margin: 20px;
+    box-shadow: 1px 1px 5px 5px grey; 
 }
 
 .photo{
     float: left; 
-    background-size: cover;
+    background-size: contain;
+    position: center;
     width: 33%; 
     height: 100%;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .info{
     color: white; 
     text-align: left;
-    padding: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
 }
 
 .name, .occupation, .mail{
-    line-height: 5px;
+    line-height: 1px;
 }
 
 .name{
@@ -69,15 +72,36 @@ p{
 }
 
 .occupation{
-    font-size: 10px;
+    font-size: 13px;
+    text-transform: capitalize;
 }
 
 .mail{
     color: lightblue;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .laura{
     background-image: url(../assets/img/female1.png);
+}
+
+.giorgio{
+    background-image: url(../assets/img/male1.png);
+}
+
+.marco{
+    background-image: url(../assets/img/male2.png);
+}
+
+.marta{
+    background-image: url(../assets/img/female2.png);
+}
+
+.daniela{
+    background-image: url(../assets/img/female3.png);
+}
+
+.roberto{
+    background-image: url(../assets/img/male3.png);
 }
 
