@@ -12,6 +12,10 @@
     clear: both;
 }
 
+html{
+    font-family: ;
+}
+
 body{
     background-color: white; 
     text-align: center;
@@ -30,3 +34,33 @@ p{
     margin: 50px;
 }
 
+.photo{
+    float: left;
+    height: 100%;
+}
+
+.photo{
+    background-image: url(../assets/img/female1.png);
+    background-size: cover;
+    width: 33%; 
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.container{
+    background-color: black;
+    width: calc(100% / 3) - (10px * 2); 
+    height: 130px;
+    margin: 10px;
+}
+
+.info{
+    color: white; 
+    text-align: left;
+    padding: 30px;
+}
+
+.name, .occupation, .mail{
+    line-height: 8px;
+}
